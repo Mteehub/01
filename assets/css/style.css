@@ -166,5 +166,6 @@ color: rgb(35, 138, 235);
 .nav-pos{display: block;}
 .navigation ul a li{
     font-size: calc(2.5rem + 1.5vw);
+    z-index:9999;
 }
 .nav{margin-top: -10%;}
