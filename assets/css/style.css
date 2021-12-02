@@ -36,7 +36,7 @@ header{display: flex; justify-content: space-between;padding: 25px 2%;    positi
 nav{position: fixed;}
 
 
-.offcanvas-header{display: block;position: absolute;right: 2.5%}
+.offcanvas-header-1{position: absolute;right: 0px;padding: 10px 2.6%;}
 
 
 
@@ -171,6 +171,12 @@ color: rgb(35, 138, 235);
   
 .nav-pos{display: block;}
 .navigation ul a li{
-    font-size: calc(2.5rem + 1.5vw);
+    font-size: calc(2.5rem + 1.5vw);}
     
+
+    
+
+    .offcanvas-header-1{position: absolute;right: 0px;padding: 10px 5%;}
 }
+
+
