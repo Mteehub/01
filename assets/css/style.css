@@ -35,6 +35,12 @@ header{display: flex; justify-content: space-between;padding: 25px 2%;    positi
     width: 100%;}
 nav{position: fixed;}
 
+
+.offcanvas-header{display: block;position: absolute;right: 2.5%}
+
+
+
+
 .antui{font-weight: 500;color: white;transition: ease 0.3s;}
 .antui:hover{color: rgba(255, 255, 255, 0.75);transition: ease 0.3s;}
 
@@ -166,6 +172,5 @@ color: rgb(35, 138, 235);
 .nav-pos{display: block;}
 .navigation ul a li{
     font-size: calc(2.5rem + 1.5vw);
-    z-index:9999;
+    
 }
-.nav{margin-top: -10%;}
